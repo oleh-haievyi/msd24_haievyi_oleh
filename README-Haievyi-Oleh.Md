@@ -59,6 +59,7 @@ Das Projekt enthält folgende Dateien:
 
 ## Über mich
 >
+
 >*Oleh Haievyi* – Student an der FH Joanneum  
 
 - **Mein GitHub-Profil:** [Oleh Haievyi](https://github.com/oleh-haievyi)  
