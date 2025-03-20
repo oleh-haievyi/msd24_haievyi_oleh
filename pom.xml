@@ -30,8 +30,16 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.comiler.release>11</maven.comiler.release>
+    <maven.compiler.release>11</maven.compiler.release>
   </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.13.0</version>
+    </dependency>
+  </dependencies>
 
   <build>
     <plugins>
@@ -43,6 +51,17 @@
           <release>11</release>
         </configuration>
       </plugin>
+
+      <plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>3.0.0</version>
+    <configuration>
+        <mainClass>at.fhj.msd.Main</mainClass>
+    </configuration>
+</plugin>
+
+      
     </plugins>
   </build>
 </project>
