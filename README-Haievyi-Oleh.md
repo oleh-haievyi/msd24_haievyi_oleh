@@ -8,59 +8,58 @@ Der Calculator kann Folgendes:
 - **Subtrahieren**: Eine Zahl von einer anderen abziehen  
 - **Dividieren**: Zwei Zahlen teilen (nicht durch 0!)  
 - **Multiplizieren**: Zwei Zahlen miteinander multiplizieren  
+- **Fakultät berechnen**: z. B. 3! = 6  
 
 ## Wie funktioniert es?  
-Ich habe den Code in Java geschrieben. Es gibt ein Interface `ICalculator` und die Klasse `CalculatorImpl`.  
+Ich habe den Code in Java geschrieben. Es gibt die Klasse `Calculator.java` mit allen Methoden.  
 Beispiel:  
 - `add(2, 3)` gibt `5` zurück.  
 - `divide(5, 0)` führt zu einem Fehler.  
+- `factorial(3)` gibt `6` zurück.  
 
-## Änderungen in dieser Übung  
+## Änderungen in Übung 04  
 In dieser Übung haben wir:  
-- Ein Maven-Projekt erstellt und mit Git versioniert.  
-- Die Datei `pom.xml` angepasst und Abhängigkeiten sowie Plugins hinzugefügt.  
-- Die Java-Klassen `Calculator` und `Main` im Paket `at.fhj.msd` erstellt.  
-- Das Projekt erfolgreich mit `mvn compile` kompiliert.  
-- Die Anwendung mit `mvn exec:java` gestartet.  
-- Screenshots zur Dokumentation erstellt und gespeichert.  
+- Die Datei `pom.xml` erweitert und JUnit 5 hinzugefügt  
+- Eine Testklasse `CalculatorTest.java` geschrieben  
+- 15 Unit-Tests erstellt für `add`, `minus`, `multiply`, `divide` und `factorial`  
+- Die Tests mit `mvn test` ausgeführt und Screenshot gemacht  
 
 ## Übungen  
 - [Exercise1](./exercise1.md)  
 - [Exercise2](exercise2.md)  
 - [Exercise3](exercise3.md)  
-- Exercise4 (noch nicht vorhanden)  
+- [Exercise4](exercise4.md) ✅  
 - Exercise5 (kommt bald)  
 - Exercise6 (in Planung)  
 
 ## Struktur des Projekts  
 Das Projekt enthält folgende Dateien:  
 - `README.md` – Diese Datei  
-- `exercise1.md` – Dokumentation der ersten Übung  
-- `exercise3.md` – Dokumentation dieser Übung  
-- `CalculatorImpl.java` – Die Implementierung des Rechners  
-- `ICalculator.java` – Das Interface für den Rechner  
+- `exercise4.md` – Dokumentation dieser Übung  
+- `Calculator.java` – Die Implementierung des Rechners  
+- `Main.java` – Startpunkt des Programms  
 - `pom.xml` – Die Maven-Konfigurationsdatei  
+- `CalculatorTest.java` – JUnit-Testklasse
 
-## Installation & Nutzung  
-1. Java (Version 11 oder höher) installieren  
-2. Den Code in Eclipse, IntelliJ oder einer anderen IDE laden  
-3. Maven für die Nutzung von `pom.xml` installieren  
-4. Die Datei `CalculatorImpl` starten  
+## Tests und Screenshots
 
-## Screenshots dieser Übung  
-### 🔹 **Projektstruktur**
-![Projektstruktur](resources/images/ex3_1.png)  
+Die Tests wurden mit `mvn test` ausgeführt.  
+Es gibt zwei Screenshots:
 
-### 🔹 **Erfolgreiche Kompilierung (`mvn compile`)**
-![Erfolgreiche Kompilierung](resources/images/ex3_2.png)  
+- ✅ **Erfolgreicher Testlauf** – alle Tests sind OK  
+- ❌ **Fehlerhafter Testlauf** – ein absichtlich falsch geschriebener Test
 
-### 🔹 **Erfolgreiche Ausführung (`mvn exec:java`)**
-![Erfolgreiche Ausführung](resources/images/ex3_3.png)  
+### Erfolgreicher Testlauf
+
+![mvn test erfolgreich](resources/images/ex4_1.png)
+
+### Fehlerhafter Testlauf
+
+![mvn test fehlerhaft](resources/images/ex4_2.png)
+
 
 ## Über mich
->
-
->*Oleh Haievyi* – Student an der FH Joanneum  
+> *Oleh Haievyi* – Student an der FH Joanneum  
 
 - **Mein GitHub-Profil:** [Oleh Haievyi](https://github.com/oleh-haievyi)  
 - **Fachhochschule:** [FH Joanneum](https://www.fh-joanneum.at/)  

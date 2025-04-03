@@ -92,19 +92,19 @@ public class CalculatorTest {
 
     //factorial
     @Test
-    @DisplayName("factorial of 3 should be 6")
+    @DisplayName("factorial 3 should 6")
     void testFactorialOfThree() {
         assertEquals(6, calc.factorial(3));
     }
 
     @Test
-    @DisplayName("factorial of 0 should be 1")
+    @DisplayName("factorial 0 should 1")
     void testFactorialOfZero() {
         assertEquals(1, calc.factorial(0));
     }
 
     @Test
-    @DisplayName("factorial of 1 should be 1")
+    @DisplayName("factorial 1 should be 1")
     void testFactorialOfOne() {
         assertEquals(1, calc.factorial(1));
     }
