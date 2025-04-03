@@ -20,3 +20,9 @@
 - JUnit 5
 - Maven test
 - I used mvn test to check if all test is ok
+
+## Screenshot:
+
+I run mvn test and all tests work. You can see it in screenshot:
+
+![test result](resources/images/ex4_1.png)
