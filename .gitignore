@@ -1,3 +1,9 @@
-*.html
-*.pdf
+# from maven, not needed
 target/
+
+# no need pdf and html files
+*.pdf
+*.html
+
+# not want to push
+.vscode/
