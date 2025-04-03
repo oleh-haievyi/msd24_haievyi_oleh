@@ -26,3 +26,9 @@
 I run mvn test and all tests work. You can see it in screenshot:
 
 ![test result](resources/images/ex4_1.png)
+
+## Fehlerhafte Tests:
+
+Ich habe einen Test absichtlich falsch gemacht. Screenshot:
+
+![Fehlerhafter Test](resources/images/ex4_2.png)
