@@ -109,7 +109,7 @@ public class CalculatorTest {
         assertEquals(1, calc.factorial(1));
     }
 
-    // 🔴 TDD-RED-Test
+    //TDD-RED-Test
     @Test
     void testFactorial() {
         Calculator calc = new Calculator();
