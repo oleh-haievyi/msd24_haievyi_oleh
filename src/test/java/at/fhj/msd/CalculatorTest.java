@@ -108,4 +108,11 @@ public class CalculatorTest {
     void testFactorialOfOne() {
         assertEquals(1, calc.factorial(1));
     }
+
+    // 🔴 TDD-RED-Test
+    @Test
+    void testFactorial() {
+        Calculator calc = new Calculator();
+        assertEquals(120, calc.factorial(5)); // schlägt fehl, weil Methode noch nicht korrekt ist
+    }
 }
