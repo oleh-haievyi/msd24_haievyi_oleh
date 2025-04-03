@@ -43,6 +43,9 @@ Das Projekt enthält folgende Dateien:
 
 ## Tests und Screenshots
 
+Diese Übung verwendet Test-Driven Development (TDD) für die Methode `factorial()`.
+
+
 Die Tests wurden mit `mvn test` ausgeführt.  
 Es gibt zwei Screenshots:
 
