@@ -19,12 +19,9 @@ public class Calculator {
         return number1 * number2;
     }
 
-    public int factorial(int n) { //simple factorial
-        int result = 1;
-        for (int i = 1; i <= n; i++) {
-            result = result * i;
-        }
-        return result;
+    public int factorial(int n) {
+        return 0;
     }
+    
 
 }
