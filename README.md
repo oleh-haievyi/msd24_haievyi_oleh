@@ -26,16 +26,17 @@ In dieser Übung haben wir:
 
 ## Übungen  
 - [Exercise1](./exercise1.md)  
-- [Exercise2](exercise2.md)  
-- [Exercise3](exercise3.md)  
-- [Exercise4](exercise4.md) ✅  
-- Exercise5 (kommt bald)  
+- [Exercise2](./exercise2.md)  
+- [Exercise3](./exercise3.md)  
+- [Exercise4](./exercise4.md)   
+- [Exercise5](./exercise5.md)✅  
 - Exercise6 (in Planung)  
 
 ## Struktur des Projekts  
 Das Projekt enthält folgende Dateien:  
 - `README.md` – Diese Datei  
 - `exercise4.md` – Dokumentation dieser Übung  
+- `exercise5.md` – Dokumentation zum Logging  
 - `Calculator.java` – Die Implementierung des Rechners  
 - `Main.java` – Startpunkt des Programms  
 - `pom.xml` – Die Maven-Konfigurationsdatei  
@@ -43,8 +44,7 @@ Das Projekt enthält folgende Dateien:
 
 ## Tests und Screenshots
 
-Diese Übung verwendet Test-Driven Development (TDD) für die Methode `factorial()`.
-
+Diese Übung verwendet Test-Driven Development (TDD) für die Methode `factorial()`.  
 
 Die Tests wurden mit `mvn test` ausgeführt.  
 Es gibt zwei Screenshots:
@@ -60,9 +60,8 @@ Es gibt zwei Screenshots:
 
 ![mvn test fehlerhaft](resources/images/ex4_2.png)
 
-
 ## Über mich
 > *Oleh Haievyi* – Student an der FH Joanneum  
 
 - **Mein GitHub-Profil:** [Oleh Haievyi](https://github.com/oleh-haievyi)  
-- **Fachhochschule:** [FH Joanneum](https://www.fh-joanneum.at/)  
+- **Fachhochschule:** [FH Joanneum](https://www.fh-joanneum.at/)
