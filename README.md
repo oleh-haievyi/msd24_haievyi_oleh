@@ -60,6 +60,8 @@ Es gibt zwei Screenshots:
 
 ![mvn test fehlerhaft](resources/images/ex4_2.png)
 
+## For logging details, see - [Exercise5](./exercise5.md).
+
 ## Über mich
 > *Oleh Haievyi* – Student an der FH Joanneum  
 
