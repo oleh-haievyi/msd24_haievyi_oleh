@@ -1,6 +1,7 @@
 package at.fhj.msd;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -14,7 +15,7 @@ public class CalculatorTest {
         calc = new Calculator();
     }
 
-    //add
+    // add
     @Test
     @DisplayName("add with normal values")
     void testAddNormalValues() {
@@ -33,7 +34,7 @@ public class CalculatorTest {
         assertEquals(1.0, calc.add(-2, 3));
     }
 
-    //minus
+    // minus
     @Test
     @DisplayName("minus normal numbers")
     void testMinusNormal() {
@@ -71,7 +72,7 @@ public class CalculatorTest {
         assertEquals(-15.0, calc.multiply(-5, 3));
     }
 
-    //divide
+    // divide
     @Test
     @DisplayName("divide normal numbers")
     void testDivideNormal() {
@@ -90,7 +91,7 @@ public class CalculatorTest {
         assertEquals(-2.5, calc.divide(5, -2));
     }
 
-    //factorial
+    // factorial
     @Test
     @DisplayName("factorial 3 should 6")
     void testFactorialOfThree() {
@@ -109,10 +110,17 @@ public class CalculatorTest {
         assertEquals(1, calc.factorial(1));
     }
 
-    //TDD-RED-Test
+    // TDD-RED-Test
     @Test
     void testFactorial() {
         Calculator calc = new Calculator();
         assertEquals(120, calc.factorial(5)); // schlägt fehl, weil Methode noch nicht korrekt ist
     }
+
+    @Test
+    @DisplayName("divide by zero should throw ArithmeticException")
+    void testDivideByZero() {
+        assertThrows(ArithmeticException.class, () -> calc.divide(10, 0));
+    }
+
 }
