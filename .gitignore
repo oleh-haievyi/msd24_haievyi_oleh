@@ -7,3 +7,8 @@ target/
 
 # not want to push
 .vscode/
+
+# ignore logs folder and log files and real log4j2 config
+logs/
+*.log
+src/main/resources/log4j2.xml
