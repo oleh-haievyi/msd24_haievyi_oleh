@@ -28,8 +28,8 @@ In dieser Übung haben wir:
 - [Exercise1](./exercise1.md)  
 - [Exercise2](./exercise2.md)  
 - [Exercise3](./exercise3.md)  
-- [Exercise4](./exercise4.md)   
-- [Exercise5](./exercise5.md)✅  
+- [Exercise4](./exercise4.md)  
+- [Exercise5](./exercise5.md) ✅  
 - Exercise6 (in Planung)  
 
 ## Struktur des Projekts  
@@ -44,7 +44,7 @@ Das Projekt enthält folgende Dateien:
 
 ## Tests und Screenshots
 
-Diese Übung verwendet Test-Driven Development (TDD) für die Methode `factorial()`.  
+Diese Übung verwendet Test-Driven Development (TDD) für die Methode `factorial()`.
 
 Die Tests wurden mit `mvn test` ausgeführt.  
 Es gibt zwei Screenshots:
@@ -60,7 +60,14 @@ Es gibt zwei Screenshots:
 
 ![mvn test fehlerhaft](resources/images/ex4_2.png)
 
-## For logging details, see - [Exercise5](./exercise5.md).
+## Abbildungen
+
+- **ex5_1.png:** Zeigt den Ausgabestatus von `git status`, der eine saubere Arbeitskopie zeigt.  
+- **ex5_2.png:** Konsolenausgabe des laufenden Programms mit Log-Meldungen (INFO, DEBUG, ERROR).  
+- **ex5_3.png:** Inhalt der Log-Datei `logs/app.log`, die Log-Meldungen im Append-Modus anzeigt.  
+- **ex5_4.png (optional):** Der Befehl `git log` mit der Commit-Historie.
+
+## For logging details, see - [Exercise5: Logging Documentation](./exercise5.md).
 
 ## Über mich
 > *Oleh Haievyi* – Student an der FH Joanneum  
