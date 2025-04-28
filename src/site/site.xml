@@ -1,0 +1,9 @@
+<project name="Calculator Site">
+  <body>
+    <menu name="Main">
+      <item name="Home" href="index.html"/>
+      <item name="Exercise 6" href="markdown/markup.html"/>
+      <item name="Good Style" href="good_style.html"/>
+    </menu>
+  </body>
+</project>
