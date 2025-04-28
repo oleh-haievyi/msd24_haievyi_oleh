@@ -7,3 +7,14 @@
 - `site.xml` defines navigation menu for the website.
 - Markdown files are used for additional pages like FAQ or good style guide.
 - Test reports from JUnit and coverage reports from JaCoCo are added automatically.
+
+## Screenshots
+
+### Screenshot: Home-Seite
+![Home-Seite](resources/images/ex6_1.png)
+
+### Screenshot: Exercise 6
+![Exercise 6](resources/images/ex6_2.png)
+
+### Screenshot: Good Style
+![Good Style](resources/images/ex6_3.png)
