@@ -10,11 +10,11 @@
 
 ## Screenshots
 
-### Screenshot: Home-Seite
-![Home-Seite](resources/images/ex6_1.png)
+### Screenshot: Start page with navigation menu (Home + Exercise 6 + Good Style)
+![Start page](resources/images/ex6_1.png)
 
-### Screenshot: Exercise 6
-![Exercise 6](resources/images/ex6_2.png)
+### Screenshot: Javadoc API for Calculator
+![Javadoc API](resources/images/ex6_2.png)
 
-### Screenshot: Good Style
-![Good Style](resources/images/ex6_3.png)
+### Screenshot: JaCoCo Coverage Report
+![JaCoCo Report](resources/images/ex6_3.png)
