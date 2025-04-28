@@ -2,7 +2,7 @@
   <body>
     <menu name="Main">
       <item name="Home" href="index.html"/>
-      <item name="Exercise 6" href="markdown/markup.html"/>
+      <item name="Exercise 6" href="markup.html"/>
       <item name="Good Style" href="good_style.html"/>
     </menu>
   </body>
